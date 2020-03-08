@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           TUCaN UserCSS
+@namespace      github.com/openstyles/stylus
+@version        0.0.1
+@description    A new userstyle
+@author         joachimschmidt557
+@license        unlicense
+==/UserStyle== */
+@-moz-document domain("www.tucan.tu-darmstadt.de") {
+    * {
+        font-family: 'Helvetica';
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    #pageContent a {
+        color: #b1bd00;
+        text-decoration: none;
+    }
+
+    #pageContent a:hover {
+        color: #b1bd00;
+        text-decoration: underline;
+    }
+
+    tr:hover {
+        background-color: #f0f0f0;
+    }
+
+    .img.img_arrowSubmit {
+        background-image: none;
+        padding-left: 0px;
+    }
+
+    .img.img_arrowLogout {
+        background-image: none;
+        padding-left: 0px;
+    }
+
+    #pageFootControl_up {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 300;
+        padding: 15px;
+    }
+}
